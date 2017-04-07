@@ -1,12 +1,15 @@
 header
-  height: 450px
-  background: #ccc
+  height: 500px
+  background: url(../img/hero-bg.jpg) center center
+  background-size: cover
 
   .logo
     +size(50px)
-    background: #999
     float: left
     margin: 10px 0 0 30px
+
+    path
+      fill: rgba(255, 255, 255, 0.9)
 
   nav
 
@@ -16,7 +19,7 @@ header
     a
       display: inline-block
       margin-left: 20px
-      color: rgba(0, 0, 0, 0.7)
+      color: rgba(255, 255, 255, 1)
 
       font:
         size: 14px
@@ -30,6 +33,7 @@ header
 
   h1
     text-align: center
+
     font:
       size: 72px
       width: 700px
