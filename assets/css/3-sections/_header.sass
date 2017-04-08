@@ -1,6 +1,6 @@
 header
-  height: 500px
-  background: url(../img/hero-bg.jpg) center center
+  height: 450px
+  background: url(../img/hero-bg3.jpg) center center
   background-size: cover
 
   .logo
@@ -9,7 +9,7 @@ header
     margin: 10px 0 0 30px
 
     path
-      fill: rgba(255, 255, 255, 0.9)
+      fill: rgba(0, 0, 0, 0.7)
 
   nav
 
@@ -19,11 +19,9 @@ header
     a
       display: inline-block
       margin-left: 20px
-      color: rgba(255, 255, 255, 1)
+      color: rgba(0, 0, 0, 0.7)
 
-      font:
-        size: 14px
-        weight: 700
+      @extend %small-bold
 
       text-transform: uppercase
       text-decoration: none
@@ -53,10 +51,7 @@ header
   .kicker
     text-align: center
 
-    font:
-      weight: 700
-
-    text-transform: uppercase
+    @extend %small-bold
     letter-spacing: 0.05em
     color: white
     line-height: 1
