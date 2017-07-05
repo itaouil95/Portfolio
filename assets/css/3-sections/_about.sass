@@ -5,8 +5,25 @@ h3
 
 .face-lockup
   max-width: 780px
+  margin: 0 auto
   +display(flex)
-
+  +align-items(center)
+  +justify-content(space-around)
+y
   .face-img
-    +size(200px)
-    background: url(/assets/img/rsz_2.jpg) center
+    +size(100px)
+    background: url(/assets/img/rsz_1.jpg) center no-repeat
+    order: 3
+
+  [class^="icon-"]
+    +size(100px)
+    background: $bgcolor
+
+    &.icon-pencil
+      order: 1
+    &.icon-mouse
+      order: 2
+    &.icon-browser
+      order: 4
+    &.icon-video
+      order: 5
