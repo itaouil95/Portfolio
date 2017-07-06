@@ -20,4 +20,38 @@ Jekyll, moreover, offers a modular and structured way for your projects. As you 
 
 ### **Part1: Header and Footer**
 
- 
+The development part for the header and footer have been particularly exciting given that it signs the start of my portfolio's life. They both share a picture of Vernazza, a national park beauty in the north-west of Italy (*Le Cinque Terre*).
+
+I also took benefit from the modula structure that Jekyll offers, as well as the SASS support. Hence, I have a main index.html file where I import my html files in *_includes* storing my modular componenets of the portfolio (header, footer, about, etc), so I can avoid having an extremely long index.html file and just modify the components accordingly, by changing the relative file. Same thing for styling. There is a common *all.sass* file where I import all of my styles in assets, which if then linked in the index.html. So as you can tell everything is really clear and well structured.
+
+* Header (HTML)
+
+```HTML
+<header>
+
+  <!-- Thunder logo -->
+  <div class="logo"></div>
+
+  <!-- Navigation bar -->
+  <nav>
+    <a href="#">About Me</a>
+    <a href="#">Work</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Headline -->
+  <h1><span>إلياس</span></h1>
+
+  <!-- Kicker -->
+  <p class="kicker">Learner // Traveller // Developer</p>
+
+</header>
+```
+
+* Header (SASS)
+```css
+header
+  /* Set background image */
+  
+```
