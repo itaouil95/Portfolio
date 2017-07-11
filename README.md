@@ -50,8 +50,60 @@ I also took benefit from the modula structure that Jekyll offers, as well as the
 ```
 
 * Header (SASS)
-```css
+```CSS
 header
   /* Set background image */
-  
+  height: 85vh
+  background-image: url("pic.jpg") center center
+  background-size: cover
+
+  .logo
+    +size(50px)
+    float: left
+    margin: 10px 0 0 30px
+
+    path
+      fill: rgba(255, 255, 255, 0.6) /* Fill SVG path color */
+
+  nav
+    float: right
+    margin: 30px 30px 0 0
+
+    a
+      @extend small-bold
+      display: inline-block
+      margin-left: 20px
+      color: rgba(255, 255, 255, 0.6)
+      text-decoration: none
+
+      &:hover
+        color: white
+
+  h1
+
+    text-align: center
+    color: white
+    text-transform: uppercase
+    letter-spacing: 0.05rem
+    margin-bottom: 20px
+    padding-top: 250px
+    clear: both
+
+    font
+      size: 52px
+      weight: 700
+
+      span
+        display: inline-block
+        padding: 0.2em 0.5em
+        border: white solid 10px
+
+    .kicker
+      text-align: center
+      @extend %small-bold
+      letter-spacing: 0.05em
+      color: white
+      line-height: 1
 ```
+
+**N.B:** The PSD file has been created by Travis Neilson, who distributed it freely. Thank you Travis !
