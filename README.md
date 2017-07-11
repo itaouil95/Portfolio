@@ -22,9 +22,9 @@ Jekyll, moreover, offers a modular and structured way for your projects. As you 
 
 The development part for the header and footer have been particularly exciting given that it signs the start of my portfolio's life. They both share a picture of Vernazza, a national park beauty in the north-west of Italy (*Le Cinque Terre*).
 
-I also took benefit from the modula structure that Jekyll offers, as well as the SASS support. Hence, I have a main index.html file where I import my html files in *_includes* storing my modular componenets of the portfolio (header, footer, about, etc), so I can avoid having an extremely long index.html file and just modify the components accordingly, by changing the relative file. Same thing for styling. There is a common *all.sass* file where I import all of my styles in assets, which if then linked in the index.html. So as you can tell everything is really clear and well structured.
+I also took benefit from the modular structure that Jekyll offers, as well as the SASS support along with bourbon tool. Hence, I have a main index.html file where I import my html files in *_includes* storing my modular components of the portfolio (header, footer, about, etc), so I can avoid having an extremely long index.html file and just modify the components accordingly, by changing the relative file. Same thing for styling. There is a common *all.sass* file where I import all of my styles in assets, which if then linked in the index.html. So as you can tell everything is really clear and well structured.
 
-* Header (HTML)
+1. Header
 
 ```HTML
 <header>
@@ -49,7 +49,6 @@ I also took benefit from the modula structure that Jekyll offers, as well as the
 </header>
 ```
 
-* Header (SASS)
 ```CSS
 header
   /* Set background image */
@@ -105,5 +104,67 @@ header
       color: white
       line-height: 1
 ```
+
+2. Footer
+
+```HTML
+<footer>
+
+  <div class="lockup">
+
+    <div class="logo">{{ % icons/logo.html % }}</div>
+
+    <div class="content-wrap">
+      <nav>
+        <a href="#">About Me</a>
+        <a href="#">Work</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <p class="copyright">All content copyright 2017</p>
+    </div>
+
+  </div>
+
+</footer>
+```
+
+```CSS
+footer
+  background: url("pic.jpg") center
+  background-size: cover
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+
+    .logo
+      +size(50px)
+      float: left
+      margin-right: 30px
+
+      path
+        fill: rgba(255, 255, 255, 0.6)
+
+    .content-wrap
+      float: float
+
+      .copyright
+        margin: 0
+        text-transform: uppercase
+        font-size: 12px
+        color: white
+
+      a
+        @extend %small-bold
+        color: rgba(255, 255, 255, 0.5)
+        display: inline-block
+        margin-right: 30px
+
+        &:hover
+          color: rgba(255, 255, 255, 0.7)
+```
+
 
 **N.B:** The PSD file has been created by Travis Neilson, who distributed it freely. Thank you Travis !
