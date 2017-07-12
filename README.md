@@ -165,6 +165,74 @@ footer
         &:hover
           color: rgba(255, 255, 255, 0.7)
 ```
+### **Part2: About Section**
 
+The about section is where I present myself a little bit and display my skills to possible clients and or companies. The interesting part here is the flexbox displaying of the icons and the dynamic way of selecting the skill matrix.
+
+Here is the markup:
+
+```HTML
+<section>
+
+  <!-- Heading -->
+  <h3>About Me</h3>
+
+  <!-- Icons -->
+  <div class="face-lockup">
+
+    <div class="face-img">{% icons/image.jpg %}</div>
+    <div class="icon-pencil">{% icons/icon-pencil.html %}</div>
+    <div class="icon-mouse">% icons/icon-mouse.html %}</div>
+    <div class="icon-browser">% icons/icon-browser.html %}</div>
+    <div class="icon-video">% icons/icon-video.html %}</div>
+
+  </div>
+
+  <!-- Skills -->
+  <div class="skill-lockup">
+
+  </div>
+
+</section>
+```
+
+So there is a recurring them here. SVGs, yeah use your dams svgs whenever you can to avoid hitting the network every single time the page is refreshed.
+
+And here is the SASS for the about page:
+
+```CSS
+section
+
+  h3
+    @extend %small-bold
+    color: $accent-light
+    text-align: center
+
+  .face-lockup
+    max-width: 780px
+    margin: 0 auto
+    +display(flex)
+    +align-items(center)
+    +justify-content(space-around)
+
+    .face-img
+      +size(100px)
+      background: url(/assets/img/vernazza.jpg) center no-repeat
+      order: 3
+
+    [class^="icon-"]
+      +size(100px)
+      background: $bgcolor
+
+      &.icon-pencil
+        order: 1
+      &.icon-mouse
+        order: 2
+      &.icon-browser
+        order: 4
+      &.icon-video
+        order: 5
+
+```
 
 **N.B:** The PSD file has been created by Travis Neilson, who distributed it freely. Thank you Travis !
