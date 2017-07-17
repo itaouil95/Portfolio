@@ -1,5 +1,7 @@
 # **Portfolio**
 
+**N.B:** The PSD file has been created by Travis Neilson, who distributed it freely. Thank you Travis !
+
 This is the repo where I will be developing and storing my personal website (THANKS JEKYLL AND GITHUB).
 
 I will be documenting the development process starting from the beginning and working it way through until it is finished.
@@ -196,7 +198,7 @@ Here is the markup:
 </section>
 ```
 
-So there is a recurring them here. SVGs, yeah use your dams svgs whenever you can to avoid hitting the network every single time the page is refreshed.
+So there is a recurring them here. SVGs, yeah use your damns svgs whenever you can to avoid hitting the network every single time the page is refreshed.
 
 And here is the SASS for the about page:
 
@@ -232,6 +234,33 @@ section
         order: 4
       &.icon-video
         order: 5
+
+    /* Re order face-lockup when screen gets smaller */
+    @media screen and (max-width: 650px) {
+
+      .face-lockup
+        display: block
+        text-align: center
+
+      [class^="icon-"]
+        display: inline-block
+        margin: 10px
+
+      .face-img
+        width: auto
+        margin-bottom: 30px
+
+    }
+
+    /* Profile Introduction */
+    .blurb
+      max-width: 620px
+      padding: 0 15px
+      margin: 50px auto
+      font-size: 24px
+      font-weight: 300
+      text-align: center
+      margin-bottom: 30px
 
 ```
 
