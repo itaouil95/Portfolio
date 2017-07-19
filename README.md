@@ -193,6 +193,62 @@ Here is the markup:
   <!-- Skills -->
   <div class="skill-lockup">
 
+    <div class="skill-unit">
+      <div class="skill-label"><b>Communication</b></div>
+        <div class="skill-icons skill-5">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Organisation</b></div>
+        <div class="skill-icons skill-7">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Machine Learning</b></div>
+        <div class="skill-icons skill-8">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Full Stack</b></div>
+        <div class="skill-icons skill-3">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>JavaScript</b></div>
+        <div class="skill-icons skill-9">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Learning</b></div>
+        <div class="skill-icons skill-9">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Planning</b></div>
+        <div class="skill-icons skill-8">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="skill-unit">
+      <div class="skill-label"><b>Team Player</b></div>
+        <div class="skill-icons skill-10">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
   </div>
 
 </section>
@@ -262,6 +318,45 @@ section
       text-align: center
       margin-bottom: 30px
 
+      .skill-lockup
+        max-width: 700px
+        margin: 100px auto
+        color: #999
+        text-align: center
+        +clearfix()
+
+        .skill-unit
+          width: 350px
+          float: left
+
+        .skill-icons
+          margin: 2px 0 30px
+
+          span
+            +size(14px)
+            display: inline-block
+            background-color: $accent
+            margin-right: 5px
+            border-radius: 50%
+
+            &::after
+              +size(10px)
+              content: ""
+              display: block
+              background: #fff
+              border-radius: 50%
+              margin: 2px
+
+          @for $i from 1 through 10
+            &.skill-#{$i} span:nth-child(n + #{$i + 1})
+              @extend %skill-color
+
+      @media screen and (max-width: 541)
+        .skill-lockup
+          width: 270px
+
 ```
+
+As for what regard the skills section. The skill level effect is created by a series of semantic elements (spans) to whom we give some css magic to reach the effect seen on the page and consequently use sass flow control directives (for loop in sass) to read the skill-# level assigned to each skill as to enable as many spans as the class defines.
 
 **N.B:** The PSD file has been created by Travis Neilson, who distributed it freely. Thank you Travis !
