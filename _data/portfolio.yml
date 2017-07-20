@@ -1,0 +1,30 @@
+# Portfolio settings
+title: إلياس
+email: itaouil95@gmail.com
+kicker: Learner // Traveler // Software Engineer
+
+# Menu List
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients Me, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+# Skill List
+skills:
+- {name: Communication, value: '7'}
+- {name: Problem Solving, value: '6'}
+- {name: Learning, value: '8'}
+- {name: Creativity, value: '7'}
+- {name: Design/UX, value: '5'}
+- {name: Full Stack, value: '8'}
+- {name: Artificial Intelligence, value: '7'}
+- {name: Algorithms, value: '7'}
+
+# Default Images and Logos
+logo: 'logo.html'
+bg-img: 'vernazza.jpg'
+
+avatar: 'avatar.png'
+blurb: |
+        <p>Hey there, <strong>my name is Ilyass</strong> and I am a final year Computer Science student at the <a href="https://www.leeds.ac.uk/" target="_blank">University Of Leeds</a>. My interests range from cool and momentarily useless <strong>Rasbperry PI, Full Stack and AI</strong> projects to more serious and pondered ones: <strong>My Final Year</strong>. Jokes apart, I am a <strong>driven</strong>, <strong>curios</strong>, <strong>well motivated</strong> and <strong>hard working</strong> person, who is craving to be part of great things and innovations in his lifetime. In the meanwhile, hit me up for some <a href="http://www.dictionary.com/browse/interesting?s=t" target="_blank">interesting</a> and <a href="http://www.dictionary.com/browse/challenging?s=t" target="_blank">challenging</a> <strong>freelancing/job/internship</strong> oppurtunities or just an orange juice, if you are in the surroundings (don't really fancy coffe, lol).</p>
