@@ -21,6 +21,17 @@ skills:
 - {name: Artificial Intelligence, value: '7'}
 - {name: Algorithms, value: '7'}
 
+# Work List
+projects:
+- {name: Ionic App, folder: proj-1}
+- {name: Drum Kit, folder: proj-2}
+- {name: Accelerometer Ball Control, folder: proj-3}
+- {name: Deep Learning, folder: proj-4}
+- {name: Morocco Tribute Page, folder: proj-5}
+- {name: GitHub Profile Searcher, folder: proj-6}
+- {name: Music Album, folder: proj-7}
+- {name: Portfolio, folder: proj-8}
+
 # Default Images and Logos
 logo: 'logo.html'
 bg-img: 'vernazza.jpg'

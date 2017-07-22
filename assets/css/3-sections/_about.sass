@@ -52,14 +52,14 @@ section
     margin-bottom: 30px
 
   .skill-lockup
-    max-width: 700px
+    max-width: 540px
     margin: 100px auto
     color: #999
     text-align: center
     +clearfix()
 
     .skill-unit
-      width: 350px
+      width: 270px
       float: left
 
     .skill-icons
@@ -84,6 +84,9 @@ section
         &.skill-#{$i} span:nth-child(n + #{$i + 1})
           @extend %skill-color
 
-  @media screen and (max-width: 541)
+  @media screen and (max-width: 540px)
     .skill-lockup
-      width: 270px
+      width: 220px
+
+      .skill-unit
+        width: 220px
