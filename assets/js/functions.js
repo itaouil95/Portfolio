@@ -1,7 +1,7 @@
 // Call smooth scroll
 $(function() {
-  console.log("Function loaded !");
   smoothScroll(500);
+  workBelt();
 });
 
 // Smooth scroll
@@ -26,4 +26,25 @@ function smoothScroll (duration) {
     }
 
   });
+}
+
+// Work Belt
+function workBelt() {
+
+  // On thumb unit click move
+  // left position by 100% left
+  // (as to show work wrap)
+  $('.thumb-unit').on('click', function() {
+    $('.work-belt').css('left', '-100%');
+    $('.work-container').show();
+  });
+
+  // On work return unit click move
+  // left position by 0% left
+  // (as to show work container)
+  $('.work-return').on('click', function() {
+    $('.work-belt').css('left', '0%');
+    $('.work-container').hide(100);
+  });
+
 }
