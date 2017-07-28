@@ -7,7 +7,7 @@ kicker: Learner // Traveler // Software Engineer
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients Me, url: '#clients'}
+- {name: Experiences, url: '#experiences'}
 - {name: Contact, url: '#contact'}
 
 # Skill List
