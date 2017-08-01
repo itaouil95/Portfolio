@@ -2,19 +2,19 @@
 <header id="header">
 
   <!-- Top-Left logo -->
-  <div class="logo">{% include icons/{{site.data.portfolio.logo}} %}</div>
+  <div class="logo">{% include icons/{{site.data.settings.logo}} %}</div>
 
   <!-- Header navigation bar -->
   <nav>
-    {% for item in site.data.portfolio.menu %}
+    {% for item in site.data.settings.menu %}
       <a href="{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 
   <!-- Headline -->
-  <h1><span>{{ site.data.portfolio.title }}</span></h1>
+  <h1><span>{{ site.data.settings.title }}</span></h1>
 
   <!-- Kicker below headline -->
-  <p class="kicker">{{ site.data.portfolio.kicker }}</span></p>
+  <p class="kicker">{{ site.data.settings.kicker }}</span></p>
 
 </header>

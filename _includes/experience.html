@@ -11,25 +11,27 @@
   <!-- Experience Section (carousel) -->
   <div class="exp-belt">
 
-    <!-- Experience Unit -->
-    <div class="exp-unit">
+    {% for experience in site.data.settings.experiences %}
+      <!-- Experience Unit -->
+      <div class="exp-unit">
 
-      <!-- Logo of the experience -->
-      <div class="exp-logo">
-        <img src="assets/img/experiences/caterva-logo.jpg" alt="Experience Logo">
-        <strong class="exp-name">Caterva</strong>
-        <em class="exp-title">Software Engineer</em>
-      </div>
-
-      <!-- Description of the experience -->
-      <div class="exp-content">
-        <div class="exp-quote-mark">
-          {% include icons/icon-quote-mark.html %}
+        <!-- Logo of the experience -->
+        <div class="exp-logo">
+          <img src="assets/img/experiences/{{ experience.logo }}" alt="Experience Logo">
+          <strong class="exp-name">{{ experience.name }}</strong>
+          <em class="exp-title">{{ experience.title }}</em>
         </div>
-        <p>
-          <strong>Lorem Ipsum è un testo</strong> segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.
-        </p>
+
+        <!-- Description of the experience -->
+        <div class="exp-content">
+          <div class="exp-quote-mark">
+            {% include icons/icon-quote-mark.html %}
+          </div>
+          {{ experience.content }}
+        </div>
+
       </div>
+    {% endfor %}
 
     </div>
 

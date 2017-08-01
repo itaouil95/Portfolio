@@ -3,6 +3,7 @@ $(function() {
   smoothScroll(500);
   workBelt();
   workLoad();
+  activeExperience()
 });
 
 // Smooth scroll
@@ -75,6 +76,49 @@ function workLoad() {
     // Load dinamically work project
     var newTitle = $this.find('strong').text();
     $('.project-title').text(newTitle);
+
+  });
+
+}
+
+// Active Experiences
+function activeExperience() {
+
+  // Assign class to first experience
+  $('.exp-unit').first().addClass('active-exp');
+
+  $('.exp-control-next, .exp-control-prev').click(function next() {
+
+    var $this = $(this),
+        currActiveClient = $('.exp-belt').find('.active-exp'),
+        position = $('.exp-belt').children().index(currActiveClient),
+        clientNum = $('.exp-unit').length;
+
+    // Next logic
+    if ($this.hasClass('exp-control-next')) {
+
+      if (position < (clientNum - 1)) {
+        $('.active-exp').removeClass('active-exp').next().addClass('active-exp');
+      }
+
+      else {
+        $('.exp-unit').removeClass('active-exp').first().addClass('active-exp');
+      }
+
+    }
+
+    // Prev logic
+    else {
+
+      if (position > 0) {
+        $('.active-exp').removeClass('active-exp').prev().addClass('active-exp');
+      }
+
+      else {
+        $('.exp-unit').removeClass('active-exp').last().addClass('active-exp');
+      }
+
+    }
 
   });
 
