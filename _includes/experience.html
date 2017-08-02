@@ -8,32 +8,37 @@
     <div class="exp-control-prev">{% include icons/icon-prev.html %}</div>
   </div>
 
+  <!-- Experiences Navigation -->
+  <div class="exp-navigation">
+    {% for experience in site.data.settings.experiences %}
+      <span></span>
+    {% endfor %}
+  </div>
+
   <!-- Experience Section (carousel) -->
   <div class="exp-belt">
 
     {% for experience in site.data.settings.experiences %}
-      <!-- Experience Unit -->
-      <div class="exp-unit">
+    <!-- Experience Unit -->
+    <div class="exp-unit">
 
-        <!-- Logo of the experience -->
-        <div class="exp-logo">
-          <img src="assets/img/experiences/{{ experience.logo }}" alt="Experience Logo">
-          <strong class="exp-name">{{ experience.name }}</strong>
-          <em class="exp-title">{{ experience.title }}</em>
-        </div>
-
-        <!-- Description of the experience -->
-        <div class="exp-content">
-          <div class="exp-quote-mark">
-            {% include icons/icon-quote-mark.html %}
-          </div>
-          {{ experience.content }}
-        </div>
-
+      <!-- Logo of the experience -->
+      <div class="exp-logo">
+        <img src="assets/img/experiences/{{ experience.logo }}" alt="Experience Logo">
+        <strong class="exp-name">{{ experience.name }}</strong>
+        <em class="exp-title">{{ experience.title }}</em>
       </div>
-    {% endfor %}
+
+      <!-- Description of the experience -->
+      <div class="exp-content">
+        <div class="exp-quote-mark">
+          {% include icons/icon-quote-mark.html %}
+        </div>
+        {{ experience.content }}
+      </div>
 
     </div>
+    {% endfor %}
 
   </div>
 

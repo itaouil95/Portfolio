@@ -86,6 +86,7 @@ function activeExperience() {
 
   // Assign class to first experience
   $('.exp-unit').first().addClass('active-exp');
+  $('.exp-navigation').children().first().addClass('active-navigation');
 
   $('.exp-control-next, .exp-control-prev').click(function next() {
 
@@ -99,10 +100,12 @@ function activeExperience() {
 
       if (position < (clientNum - 1)) {
         $('.active-exp').removeClass('active-exp').next().addClass('active-exp');
+        $('.active-navigation').removeClass('active-navigation').next().addClass('active-navigation');
       }
 
       else {
         $('.exp-unit').removeClass('active-exp').first().addClass('active-exp');
+        $('.exp-navigation').children().removeClass('active-navigation').first().addClass('active-navigation');
       }
 
     }
@@ -112,10 +115,12 @@ function activeExperience() {
 
       if (position > 0) {
         $('.active-exp').removeClass('active-exp').prev().addClass('active-exp');
+        $('.active-navigation').removeClass('active-navigation').prev().addClass('active-navigation');
       }
 
       else {
         $('.exp-unit').removeClass('active-exp').last().addClass('active-exp');
+        $('.exp-navigation').children().removeClass('active-navigation').last().addClass('active-navigation');
       }
 
     }
