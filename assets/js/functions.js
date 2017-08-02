@@ -88,6 +88,26 @@ function activeExperience() {
   $('.exp-unit').first().addClass('active-exp');
   $('.exp-navigation').children().first().addClass('active-navigation');
 
+  // Navigation logic (only mobile)
+  $('.exp-navigation span').click(function move() {
+
+    var $this = $(this),
+        $siblings = $this.parent().children(),
+        position = $siblings.index($this);
+
+    // Remove active-* class from current exp-unit
+    // and assign it to one with positon equal to
+    // the navigation span
+    $('.exp-unit').removeClass('active-exp').eq(position).addClass('active-exp');
+
+    // Remove active-navigation class from current span
+    // and assign it to this (aka where the click was fired)
+    $siblings.removeClass('active-navigation');
+    $this.addClass('active-navigation');
+
+  });
+
+  // Controls logic
   $('.exp-control-next, .exp-control-prev').click(function next() {
 
     var $this = $(this),
