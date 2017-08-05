@@ -25,9 +25,26 @@ footer
 
       a
         @extend %small-bold
-        color: rgba(255, 255, 255, 0.5)
+        color: rgba(255, 255, 255, 0.8)
         display: inline-block
         margin-right: 30px
 
         &:hover
           color: rgba(255, 255, 255, 1)
+
+  @media screen and (max-width: 640px)
+    .lockup
+
+      .logo
+        float: none
+        display: block
+        margin: 0 auto
+        padding: 20px 0px
+
+      .content-wrap
+        float: none
+        display: block
+        text-align: center
+
+        .copyright
+          padding-top: 20px
