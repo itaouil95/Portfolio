@@ -70,7 +70,7 @@ function workLoad() {
 
     // Document to load (work) dinamically using
     // data key. Plus spinner load injection
-    var newHTML = '/work/' + $this.data('folder') + '.html';
+    var newHTML = '/work/' + $this.data('url') + '.html';
     $('.project-load').html(spinner).load(newHTML);
 
     // Load dinamically work project
