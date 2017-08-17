@@ -35,14 +35,11 @@ projects:
 # Experiences List
 experiences:
 - {logo: 'caterva-logo.jpg', name: 'Caterva', title: 'Software Engineer', content: '<p>
-  <strong>Lorem Ipsum è un testo</strong> segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.
-</p>'}
+  <strong>Software Engineer</strong> intern for a renewable energy startup in the south of Germany, Munich. My main task was to develop secure channels and interactive applications to respectively carry and display data related to the ESS (Caterva's product). During the work placement I used different technologies and platforms, including, JavaScript, NodeJS, AngularJS, HTML, SASS, CSS, Bash, Linux, RasbperryPi and other tools.</p>'}
 - {logo: 'uol-logo.png', name: 'University Of Leeds', title: 'BSc, Computer Science with Artificial Intelligence', content: '<p>
-  <strong>Lorem Ipsum è un testo</strong> segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.
-</p>'}
+  Currently in my last year of a <strong>Bachelor degree</strong> program with major in Artificial Intelligence. During the past two year spent at University I have tackled different courses ranging from cryptography, to networks to machine learning and in both years I have attained a 1st overall, respectively a 76% in my first year and 84% in my second one.</p>'}
 - {logo: 'funtech-logo.jpg', name: 'FunTech', title: 'Tutor', content: '<p>
-  <strong>Lorem Ipsum è un testo</strong> segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato.
-</p>'}
+  Interned as a tutor at a private institution focused on teaching young children about the tech world. I personally taught three different classes including <strong>Java programming</strong>, <strong>Drone coding</strong> and <strong>Virtual Reality</strong>.'}
 
 # Work List
 social:
