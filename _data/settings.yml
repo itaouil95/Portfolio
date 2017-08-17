@@ -3,6 +3,15 @@ title: إلياس
 email: itaouil95@gmail.com
 kicker: Learner // Traveler // Software Engineer
 
+# SEO section
+seo:
+  description: 'Freelancer, Pool Talent, Software Developer, Software Engineer, Full Stack, Artificial Intelligence, Machine Learning, Natural Language Processing, Algorithms'
+  rel-author: 'https://www.linkedin.com/in/ilyass-taouil-8b2b15a7/'
+  rel-publisher: 'https://www.linkedin.com/in/ilyass-taouil-8b2b15a7/'
+
+# Google Analytics
+google-analytics-ua: UA-104783805-1
+
 # Menu List
 menu:
 - {name: About Me, url: '#about-me'}
