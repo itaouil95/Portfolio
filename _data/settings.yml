@@ -33,13 +33,13 @@ skills:
 # Work List
 projects:
 - {name: Risotto POS System, folder: proj-1}
-- {name: Portfolio Example, folder: proj-2}
+- {name: Portfolio, folder: proj-2}
 - {name: JavaScript Mini Projects, folder: proj-3}
-- {name: Deep Learning, folder: proj-4}
+- {name: Ionic App, folder: proj-4}
 - {name: Morocco Tribute Page, folder: proj-5}
 - {name: GitHub Profile Searcher, folder: proj-6}
 - {name: Music Album, folder: proj-7}
-- {name: Portfolio, folder: proj-8}
+- {name: GPS Tracking, folder: proj-8}
 
 # Experiences List
 experiences:
