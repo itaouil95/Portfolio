@@ -1,7 +1,7 @@
 # Portfolio settings
 title: إلياس
 email: itaouil95@gmail.com
-kicker: Learner // Traveler // Developer
+kicker: Undergrad // Nature Lover // Developer
 
 # SEO section
 seo:
@@ -46,7 +46,7 @@ experiences:
 - {logo: 'caterva-logo.jpg', name: 'Caterva', title: 'Software Engineer', content: '<p>
   <strong>Software Engineer</strong> intern for a renewable energy startup in the south of Germany, Munich. My main task was to develop secure channels and interactive applications to respectively carry and display data related to the main product, the ESS. During the work placement I used different technologies and platforms, including JavaScript, NodeJS, AngularJS, HTML, SASS, CSS, Bash, Linux, RasbperryPi and other tools. Some of the projects I have worked on comprehend a data visualisation application, a REST API and a RasbperryPi based router interface.
 </p>'}
-- {logo: 'uol-logo.png', name: 'University Of Leeds', title: 'BSc, Computer Science with Artificial Intelligence', content: '<p>
+- {logo: 'uol-logo.jpg', name: 'University Of Leeds', title: 'BSc, Computer Science with Artificial Intelligence', content: '<p>
   Currently in my last year of a <strong>Bachelor degree</strong> program with major in Artificial Intelligence. During the past two year spent at University I have tackled different courses ranging from cryptography, to networks to machine learning and in both years I have attained a 1st overall, respectively a 76% in my first year and 84% in my second one.
 </p>'}
 - {logo: 'funtech-logo.jpg', name: 'FunTech', title: 'Tutor', content: '<p>
@@ -61,9 +61,9 @@ social:
 
 # Default Images and Logos
 logo: 'logo.html'
-bg-img: 'vernazza.jpg'
+bg-img: 'bg-hero.jpg'
 
-avatar: 'avatar.png'
+avatar: 'avatar.jpg'
 blurb: |
         <p>Hey there, <strong>my name is Ilyass</strong> and I am a final year Computer Science student at the <a href="https://www.leeds.ac.uk/" target="_blank">University Of Leeds</a>. My current interests consist in <strong>Rasbperry PI, Full Stack and AI</strong> based projects, Physics and International Politics. In my free time I like to travel and practice sport, mainly Football, Basketball, Jiu-Jitsu and Swimming. I am a <strong>driven</strong>, <strong>curios</strong>, <strong>well motivated</strong> and <strong>hard working</strong> person, who is craving to be part of great things and innovations in his lifetime. In the meanwhile, hit me up for some <a href="http://www.dictionary.com/browse/interesting?s=t" target="_blank">interesting</a> and <a href="http://www.dictionary.com/browse/challenging?s=t" target="_blank">challenging</a> <strong>freelancing/job/internship</strong> oppurtunities or just a drink if you are in the surroundings.</p>
         <strong>P.S:</strong> My dream is to <strong>Spaceflight</strong>. <a href="#contact">Yours ?</a>
