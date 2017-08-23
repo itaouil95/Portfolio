@@ -17,6 +17,8 @@
 
     <!-- Defer above the fold view -->
     <style media="screen">
+
+      /* Header Section */
       header {
         height: 500px;
         background: url(/assets/img/bg-hero.jpg) center;
@@ -101,6 +103,90 @@
         }
 
       }
+
+      /* About Section */
+      section .face-lockup {
+        max-width: 780px;
+        margin: 0 auto;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+
+      section .face-lockup .face-img {
+        width: 180px;
+        height: 180px;
+        background: url(/assets/img/avatar.jpg) center no-repeat;
+
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+      }
+
+      section .face-lockup [class^="icon-"] {
+        width: 100px;
+        height: 100px;
+        background: #e5eaee;
+        border-radius: 50%;
+      }
+
+      section .face-lockup [class^="icon-"] path {
+        fill: #c99065;
+      }
+
+      section .face-lockup .icon-pencil {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+      }
+
+      section .face-lockup .icon-dev {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+      }
+
+      section .face-lockup .icon-algo {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+      }
+
+      section .face-lockup .icon-ai {
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+      }
+
+      @media screen and (max-width: 650px) {
+
+        .face-lockup {
+          display: block;
+          text-align: center;
+        }
+
+        .face-lockup [class^="icon-"] {
+          display: inline-block;
+          margin: 10px;
+        }
+
+
+        .face-lockup .face-img  {
+          width: auto;
+          margin-bottom: 30px;
+        }
+
+      }
+
     </style>
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

@@ -1,46 +1,46 @@
 section
 
-  .face-lockup
-    max-width: 780px
-    margin: 0 auto
-    +display(flex)
-    +align-items(center)
-    +justify-content(space-between)
-
-    .face-img
-      +size(180px)
-      background: url(../img/#{$avatar-path}) center no-repeat
-      +order(3)
-
-    [class^="icon-"]
-      +size(100px)
-      background: $bgcolor
-      border-radius: 50%
-
-      path
-        fill: $accent
-
-      &.icon-pencil
-        +order(1)
-      &.icon-dev
-        +order(2)
-      &.icon-algo
-        +order(4)
-      &.icon-ai
-        +order(5)
-
-  @media screen and (max-width: 650px)
-    .face-lockup
-      display: block
-      text-align: center
-
-      [class^="icon-"]
-        display: inline-block
-        margin: 10px
-
-      .face-img
-        width: auto
-        margin-bottom: 30px
+  // .face-lockup
+  //   max-width: 780px
+  //   margin: 0 auto
+  //   +display(flex)
+  //   +align-items(center)
+  //   +justify-content(space-between)
+  //
+  //   .face-img
+  //     +size(180px)
+  //     background: url(../img/#{$avatar-path}) center no-repeat
+  //     +order(3)
+  //
+  //   [class^="icon-"]
+  //     +size(100px)
+  //     background: $bgcolor
+  //     border-radius: 50%
+  //
+  //     path
+  //       fill: $accent
+  //
+  //     &.icon-pencil
+  //       +order(1)
+  //     &.icon-dev
+  //       +order(2)
+  //     &.icon-algo
+  //       +order(4)
+  //     &.icon-ai
+  //       +order(5)
+  //
+  // @media screen and (max-width: 650px)
+  //   .face-lockup
+  //     display: block
+  //     text-align: center
+  //
+  //     [class^="icon-"]
+  //       display: inline-block
+  //       margin: 10px
+  //
+  //     .face-img
+  //       width: auto
+  //       margin-bottom: 30px
 
   .blurb
     max-width: 620px
