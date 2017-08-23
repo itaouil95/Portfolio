@@ -133,6 +133,10 @@
     <!-- Footer Section -->
     {% include footer.html %}
 
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="assets/css/all.css">
+    </noscript>
+
     <!-- CSS loading optimasation -->
     <script type="text/javascript">
       function loadDeferredStyles() {
@@ -151,12 +155,9 @@
 
       else window.addEventListener('load', loadDeferredStyles);
     </script>
+
     <script src="assets/js/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="assets/js/functions.js"></script>
-
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="assets/css/all.css">
-    </noscript>
 
   </body>
 
