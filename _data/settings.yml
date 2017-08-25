@@ -10,7 +10,7 @@ seo:
   rel-publisher: 'https://www.linkedin.com/in/ilyass-taouil-8b2b15a7/'
 
 # Google Analytics
-google-analytics-ua: UA-104783805-1
+google-analytics-ua: UA-104783805-2
 
 # Menu List
 menu:
@@ -22,13 +22,13 @@ menu:
 # Skill List
 skills:
 - {name: Communication, value: '7'}
-- {name: Problem Solving, value: '6'}
-- {name: Learning, value: '8'}
-- {name: Creativity, value: '7'}
-- {name: Design/UX, value: '5'}
-- {name: Full Stack, value: '8'}
-- {name: Artificial Intelligence, value: '7'}
-- {name: Algorithms, value: '7'}
+- {name: Problem Solving, value: '5'}
+- {name: Learning, value: '7'}
+- {name: Creativity, value: '5'}
+- {name: Design/UX, value: '3'}
+- {name: Full Stack, value: '6'}
+- {name: Artificial Intelligence, value: '5'}
+- {name: Algorithms, value: '6'}
 
 # Work List
 projects:
@@ -36,10 +36,10 @@ projects:
 - {name: Portfolio, folder: proj-2}
 - {name: JavaScript Mini Projects, folder: proj-3}
 - {name: Ionic App, folder: proj-4}
-- {name: Morocco Tribute Page, folder: proj-5}
-- {name: GitHub Profile Searcher, folder: proj-6}
-- {name: Music Album, folder: proj-7}
-- {name: GPS Tracking, folder: proj-8}
+- {name: Coming Soon, folder: proj-5}
+- {name: Coming Soon, folder: proj-6}
+- {name: Coming Soon, folder: proj-7}
+- {name: Coming Soon, folder: proj-8}
 
 # Experiences List
 experiences:
