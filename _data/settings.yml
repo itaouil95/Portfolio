@@ -36,8 +36,8 @@ projects:
 - {name: Portfolio, folder: proj-2}
 - {name: JavaScript Mini Projects, folder: proj-3}
 - {name: Ionic App, folder: proj-4}
-- {name: Coming Soon, folder: proj-5}
-- {name: Coming Soon, folder: proj-6}
+- {name: Robotics Cluedo, folder: proj-5}
+- {name: Object Detection, folder: proj-6}
 - {name: Coming Soon, folder: proj-7}
 - {name: Coming Soon, folder: proj-8}
 
