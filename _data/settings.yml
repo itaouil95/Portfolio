@@ -1,7 +1,7 @@
 # Portfolio settings
 title: إلياس
 email: itaouil95@gmail.com
-kicker: Undergrad // Traveler // Developer
+kicker: Roboticist // Learner // Achiever
 
 # SEO section
 seo:
@@ -22,13 +22,13 @@ menu:
 # Skill List
 skills:
 - {name: Communication, value: '7'}
-- {name: Problem Solving, value: '5'}
-- {name: Learning, value: '7'}
-- {name: Creativity, value: '5'}
-- {name: Design/UX, value: '3'}
-- {name: Full Stack, value: '6'}
-- {name: Artificial Intelligence, value: '5'}
-- {name: Algorithms, value: '6'}
+- {name: Problem Solving, value: '8'}
+- {name: Learning, value: '9'}
+- {name: Creativity, value: '7'}
+- {name: Design/UX, value: '4'}
+- {name: Full Stack, value: '7'}
+- {name: AI/ML/Robotics, value: '9'}
+- {name: Algorithms, value: '7'}
 
 # Work List
 projects:
@@ -38,19 +38,19 @@ projects:
 - {name: Ionic App, folder: proj-4}
 - {name: Robotics Cluedo, folder: proj-5}
 - {name: Object Detection, folder: proj-6}
-- {name: Coming Soon, folder: proj-7}
+- {name: ROS package, folder: proj-7}
 - {name: Coming Soon, folder: proj-8}
 
 # Experiences List
 experiences:
 - {logo: 'uol-logo.jpg', name: 'UoL RoboCup Team', title: 'Researcher & Developer', content: '<p>
-  I am part of the RoboCup team supervised by Dr. Matteo Leonetti at the University of Leeds, where we tackle different Robotics tasks, ranging from navigation, vision and speech. I am part of the navigation team for which I am currently developing a <strong>ROS package</strong> (available from May on ROS) to estimate human pose in the environment (map). The package makes use of different tecniques, including deep Llearning for human detection on RGB data, point clouds for human-robot distance and leg detection algorithms for long distance detection and a more robust estimation.
+  I am part of the RoboCup team supervised by Dr. Matteo Leonetti at the University of Leeds, where we tackle different Robotics tasks, ranging from navigation, vision and speech. I am part of the navigation team for which I developed a <strong>ROS package</strong> in order to estimate the 3D human position in the environment. The package makes use of different tecniques, including deep-learning for human detection on RGB data and point clouds for human-robot distance computation.
 </p>'}
 - {logo: 'caterva-logo.jpg', name: 'Caterva', title: 'Software Engineer', content: '<p>
-  <strong>Software Engineer</strong> intern for a renewable energy startup in the south of Germany, Munich. My main task was to develop secure channels and interactive applications to respectively carry and display data related to the main product, the ESS. During the work placement I used different technologies and platforms, including JavaScript, NodeJS, AngularJS, HTML, SASS, CSS, Bash, Linux, RasbperryPi and other tools. Some of the projects I have worked on comprehend a data visualisation application, a REST API and a RasbperryPi based router interface.
+  <strong>Software Engineer</strong> intern for a renewable energy startup in the south of Germany, Munich. My main task was to develop secure channels and interactive applications to respectively carry and display data related to the main product, the ESS. During the work placement I used different technologies and platforms, including vanillaJS, NodeJS, AngularJS, HTML, SASS, CSS, Bash, Linux, RasbperryPi and other tools. Some of the projects I have worked on comprehend a data visualisation application, REST APIs and a RasbperryPi based router interface.
 </p>'}
 - {logo: 'uol-logo.jpg', name: 'University Of Leeds', title: 'BSc, Computer Science with Artificial Intelligence', content: '<p>
-  Currently in my last year of a <strong>Bachelor degree</strong> program with major in Artificial Intelligence. During the past two year spent at University I have tackled different courses ranging from cryptography, to networks to machine learning and in both years I have attained a 1st overall, respectively a 76% in my first year and 84% in my second one.
+  Currently in my final year of a <strong>Bachelor degree</strong> program with major in Artificial Intelligence. During the past three years spent at UoL I learnt few things on how to build software and solve problems efficiently. I also won <strong>best Software Engineering project</strong> in my second year and <best Robotics project> in my third and final year. I am also due to graduate among the <strong>top10</strong> students of my cohort.
 </p>'}
 - {logo: 'funtech-logo.jpg', name: 'FunTech', title: 'Tutor', content: '<p>
   Interned as a tutor at a private institution focused on teaching children about the tech world. I personally taught three different classes including <strong>Java programming</strong>, <strong>Drone coding</strong> and <strong>Virtual Reality</strong>.
