@@ -43,7 +43,7 @@ projects:
 
 # Experiences List
 experiences:
-- {logo: 'iit-logo.jpg', name: 'IIT', title: 'Computer Vision SWE', content: '<p>
+- {logo: 'iit-logo.png', name: 'IIT', title: 'Computer Vision SWE', content: '<p>
   Currently working at IIT (Italian Institute of Technology) as a Deep Learning Computer Vision Engineer.
 </p>'}
 - {logo: 'uol-logo.jpg', name: 'UoL RoboCup Team', title: 'Researcher & Developer', content: '<p>
