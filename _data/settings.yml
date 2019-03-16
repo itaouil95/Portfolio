@@ -43,8 +43,11 @@ projects:
 
 # Experiences List
 experiences:
+- {logo: 'fotokite.png', name: 'Fotokite', title: 'Engineering Intern', content: '<p>
+  Currently interning at Fotokite AG in Zurich, Switzerland. Working on machine vision.
+</p>'}
 - {logo: 'iit-logo.png', name: 'IIT', title: 'Computer Vision SWE', content: '<p>
-  Currently working at IIT (Italian Institute of Technology) as a Deep Learning Computer Vision Engineer.
+  Worked at IIT (Italian Institute of Technology) as a Deep Learning Computer Vision Engineer.
 </p>'}
 - {logo: 'uol-logo.jpg', name: 'UoL RoboCup Team', title: 'Researcher & Developer', content: '<p>
   I am part of the RoboCup team supervised by Dr. Matteo Leonetti at the University of Leeds, where we tackle different Robotics tasks, ranging from navigation, vision and speech. I am part of the navigation team for which I developed a <strong>ROS package</strong> in order to estimate the 3D human position in the environment. The package makes use of different tecniques, including deep-learning for human detection on RGB data and point clouds for human-robot distance computation.
