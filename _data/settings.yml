@@ -75,6 +75,6 @@ social:
 logo: 'logo.html'
 bg-img: 'bg-hero.jpg'
 
-avatar: 'avatar.jpg'
+avatar: 'avatar_new.jpg'
 blurb: |
         <p>Hey there, <strong>my name is Ilyass</strong> and I am a recent Computer Science graduate from the <a href="https://www.leeds.ac.uk/" target="_blank">University Of Leeds</a>. Afterwards I spent six months working at the <a href="https://iit.it/" target="_blank">Italian Institute Of Technology</a> on Computer Vision, and another six months at <a href="https://fotokite.com/" target="_blank">Fotokite</a> as an Engineering Intern. My current interests consist in <strong>Full Stack and AI (Machine Learning, Robotics)</strong> development, in fact, I developed an <strong>open-source ROS package</strong> for 3D human position estimation in the environment. In my free time I like to travel and practice sport. I think of myself as <strong>driven</strong>, <strong>curios</strong>, <strong>well motivated</strong> and <strong>hard working</strong> person, willing to be part of something big and innovative. Oh yeah, my dream is to <strong>Spaceflight</strong>.</p>
