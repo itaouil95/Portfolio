@@ -20,15 +20,15 @@ menu:
 - {name: Contact, url: '#contact'}
 
 # Skill List
-skills:
-- {name: Communication, value: '8'}
-- {name: Problem Solving, value: '8'}
-- {name: Learning, value: '9'}
-- {name: Creativity, value: '8'}
-- {name: Design/UX, value: '4'}
-- {name: Full Stack, value: '7'}
-- {name: AI/ML/Robotics, value: '8'}
-- {name: Algorithms, value: '7'}
+# skills:
+# - {name: Communication, value: '8'}
+# - {name: Problem Solving, value: '8'}
+# - {name: Learning, value: '9'}
+# - {name: Creativity, value: '8'}
+# - {name: Design/UX, value: '4'}
+# - {name: Full Stack, value: '7'}
+# - {name: AI/ML/Robotics, value: '8'}
+# - {name: Algorithms, value: '7'}
 
 # Work List
 # projects:
