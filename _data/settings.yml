@@ -44,10 +44,10 @@ menu:
 # Experiences List
 experiences:
 - {logo: 'uni_bonn_logo.png', name: 'University Of Bonn', title: 'Student Research Assistant', content: '<p>
-   I am currently as a student research assistant at the <a href="http://www.ais.uni-bonn.de/" target="_blank">Autonomous Intelligent Systems</a> under professor <a href="https://scholar.google.de/citations?user=1xx3X_0AAAAJ&hl=en" target="_blank">Sven Behnke</a> on vision algorithms for quadrupedal robots.
+   I am currently as a student research assistant at the <a href="http://www.ais.uni-bonn.de/" target="_blank">Autonomous Intelligent Systems</a> under professor <a href="https://scholar.google.de/citations?user=1xx3X_0AAAAJ&hl=en" target="_blank">Sven Behnke</a> working on vision and state estimation algorithms for quadrupedal robots.
 </p>'}
 - {logo: 'uni_bonn_logo.png', name: 'University Of Bonn', title: 'Student Research Assistant', content: '<p>
-   I worked as a student research assistant at the <a href="https://www.hrl.uni-bonn.de/" target="_blank">Humanoid Robotics Lab</a> under professor <a href="https://scholar.google.com/citations?user=lqjRbXgAAAAJ&hl=en" target="_blank">Maren Bennewitz</a>. This is the <a href="https://www.youtube.com/watch?v=IkanTA_ikvA&ab_channel=HumanoidsBonn" target="_blank">result</a>.
+   Previously a student research assistant at the <a href="https://www.hrl.uni-bonn.de/" target="_blank">Humanoid Robotics Lab</a> under professor <a href="https://scholar.google.com/citations?user=lqjRbXgAAAAJ&hl=en" target="_blank">Maren Bennewitz</a>. This is the <a href="https://www.youtube.com/watch?v=IkanTA_ikvA&ab_channel=HumanoidsBonn" target="_blank">result</a>.
 </p>'}
 - {logo: 'uni_bonn_logo.png', name: 'University Of Bonn', title: 'MSc in Computer Science', content: '<p>
    I am currently at the University Of Bonn where I am undertaking a Master of Science in Computer Science. I will be specializing in Robotics. Graduating in 2021.
@@ -83,4 +83,4 @@ bg-img: 'bg-hero.jpg'
 
 avatar: 'avatar.jpg'
 blurb: |
-        <p>Hey there, <strong>my name is Ilyass</strong> and I am a Computer Science student at the <a href="https://www.uni-bonn.de/the-university" target="_blank">University of Bonn</a>, where I am specializing in Robotics. I also spent six months working at the <a href="https://iit.it/" target="_blank">Italian Institute of Technology</a> on Computer Vision, and another six months at <a href="https://fotokite.com/" target="_blank">Fotokite</a> as an Engineering Intern. I am currently interested in everything that rotates around <strong>Robotics</strong> and <strong>Computer Vision</strong>. I am currently working on vision algorithms for quadrupedal robots at the AIS group in Bonn. Oh yeah, my wildest dream is to <strong>Spacewalk</strong>.</p>
+        <p>Hey there, <strong>my name is Ilyass</strong> and I am a Computer Science student at the <a href="https://www.uni-bonn.de/the-university" target="_blank">University of Bonn</a>, where I am specializing in Robotics. I also spent six months working at the <a href="https://iit.it/" target="_blank">Italian Institute of Technology</a> on Computer Vision, and another six months at <a href="https://fotokite.com/" target="_blank">Fotokite</a> as an Engineering Intern. I am interested in everything that rotates around <strong>Robotics</strong> and <strong>Computer Vision</strong>. I am currently working on vision algorithms for quadrupedal robots at the AIS group at the University of Bonn. Oh yeah, my wildest dream is to <strong>Spacewalk</strong>.</p>
